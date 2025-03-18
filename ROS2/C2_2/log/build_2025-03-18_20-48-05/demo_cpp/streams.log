@@ -1,0 +1,66 @@
+[0.014s] Invoking command in '/home/admin/Documents/ROS2/C2_2/build/demo_cpp': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C2_2/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C2_2/demo_cpp -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C2_2/install/demo_cpp
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.337s] -- Detecting CXX compiler ABI info - done
+[0.349s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.350s] -- Detecting CXX compile features - done
+[0.353s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.535s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.656s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.699s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.704s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.720s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.799s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.802s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.896s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.926s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.973s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.981s] -- Looking for pthread.h
+[1.063s] -- Looking for pthread.h - found
+[1.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.154s] -- Found Threads: TRUE  
+[1.216s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.313s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.313s] -- Configured cppcheck include dirs: 
+[1.314s] -- Configured cppcheck exclude dirs and/or files: 
+[1.317s] -- Added test 'lint_cmake' to check CMake code style
+[1.324s] -- Added test 'uncrustify' to check C / C++ code style
+[1.324s] -- Configured uncrustify additional arguments: 
+[1.326s] -- Added test 'xmllint' to check XML markup files
+[1.328s] -- Configuring done
+[1.342s] -- Generating done
+[1.347s] -- Build files have been written to: /home/admin/Documents/ROS2/C2_2/build/demo_cpp
+[1.360s] Invoked command in '/home/admin/Documents/ROS2/C2_2/build/demo_cpp' returned '0': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C2_2/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C2_2/demo_cpp -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C2_2/install/demo_cpp
+[1.362s] Invoking command in '/home/admin/Documents/ROS2/C2_2/build/demo_cpp': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C2_2/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C2_2/build/demo_cpp -- -j8 -l8
+[1.411s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[4.595s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.713s] [100%] Built target cpp_node
+[4.727s] Invoked command in '/home/admin/Documents/ROS2/C2_2/build/demo_cpp' returned '0': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C2_2/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C2_2/build/demo_cpp -- -j8 -l8
+[4.748s] Invoking command in '/home/admin/Documents/ROS2/C2_2/build/demo_cpp': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C2_2/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C2_2/build/demo_cpp
+[4.756s] -- Install configuration: ""
+[4.756s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/ament_index/resource_index/package_run_dependencies/demo_cpp
+[4.756s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/ament_index/resource_index/parent_prefix_path/demo_cpp
+[4.756s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/environment/ament_prefix_path.sh
+[4.756s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/environment/ament_prefix_path.dsv
+[4.757s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/environment/path.sh
+[4.757s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/environment/path.dsv
+[4.757s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/local_setup.bash
+[4.757s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/local_setup.sh
+[4.757s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/local_setup.zsh
+[4.757s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/local_setup.dsv
+[4.757s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/package.dsv
+[4.758s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/ament_index/resource_index/packages/demo_cpp
+[4.758s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/cmake/demo_cppConfig.cmake
+[4.758s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/cmake/demo_cppConfig-version.cmake
+[4.758s] -- Installing: /home/admin/Documents/ROS2/C2_2/install/demo_cpp/share/demo_cpp/package.xml
+[4.760s] Invoked command in '/home/admin/Documents/ROS2/C2_2/build/demo_cpp' returned '0': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C2_2/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C2_2/build/demo_cpp
