@@ -1,0 +1,75 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/admin/Documents/ROS2/C2_3/src/demo_cpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/admin/Documents/ROS2/C2_3/build/demo_cpp
+[35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_lamda[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[  7%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/learn_lamda.dir/src/learn_lamda.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable learn_auto[0m
+[ 64%] [32m[1mLinking CXX executable learn_shared_ptr[0m
+[ 71%] [32m[1mLinking CXX executable learn_lamda[0m
+[ 71%] Built target learn_auto
+[ 78%] [32m[1mLinking CXX executable learn_function[0m
+[ 78%] Built target learn_lamda
+[ 78%] Built target learn_shared_ptr
+[ 78%] Built target learn_function
+[ 85%] [32m[1mLinking CXX executable cpp_node[0m
+[ 92%] [32m[1mLinking CXX executable person_node[0m
+[ 92%] Built target cpp_node
+[ 92%] Built target person_node
+[100%] [32m[1mLinking CXX executable learn_thread[0m
+[100%] Built target learn_thread
+-- Install configuration: ""
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/cpp_node
+-- Set runtime path of "/home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/cpp_node" to ""
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/person_node
+-- Set runtime path of "/home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/person_node" to ""
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/learn_auto
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/learn_shared_ptr
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/learn_lamda
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/learn_function
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/lib/demo_cpp/learn_thread
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/ament_index/resource_index/package_run_dependencies/demo_cpp
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/ament_index/resource_index/parent_prefix_path/demo_cpp
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/environment/path.sh
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/environment/path.dsv
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/local_setup.bash
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/local_setup.sh
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/local_setup.zsh
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/local_setup.dsv
+-- Installing: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/package.dsv
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/ament_index/resource_index/packages/demo_cpp
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/cmake/demo_cppConfig.cmake
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/cmake/demo_cppConfig-version.cmake
+-- Up-to-date: /home/admin/Documents/ROS2/C2_3/install/demo_cpp/share/demo_cpp/package.xml

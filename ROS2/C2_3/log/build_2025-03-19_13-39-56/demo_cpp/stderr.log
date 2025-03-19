@@ -1,0 +1,7 @@
+[01m[K/home/admin/Documents/ROS2/C2_3/src/demo_cpp/src/learn_auto.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/learn_auto.dir/build.make:76: CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/learn_auto.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
