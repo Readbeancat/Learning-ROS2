@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/admin/Documents/ROS2/C3_4/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C3_4/build/status_display -- -j8 -l8
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target hello_qt[0m
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[1.429s] [100%] [32m[1mLinking CXX executable hello_qt[0m
+[2.000s] [100%] Built target hello_qt
+[2.013s] Invoked command in '/home/admin/Documents/ROS2/C3_4/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C3_4/build/status_display -- -j8 -l8
+[2.015s] Invoking command in '/home/admin/Documents/ROS2/C3_4/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C3_4/build/status_display
+[2.024s] -- Install configuration: ""
+[2.025s] -- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/lib/status_display/hello_qt
+[2.025s] -- Set runtime path of "/home/admin/Documents/ROS2/C3_4/install/status_display/lib/status_display/hello_qt" to ""
+[2.025s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[2.025s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[2.025s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[2.025s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[2.025s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/path.sh
+[2.025s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/path.dsv
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.bash
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.sh
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.zsh
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.dsv
+[2.026s] -- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/package.dsv
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/ament_index/resource_index/packages/status_display
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[2.026s] -- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/package.xml
+[2.028s] Invoked command in '/home/admin/Documents/ROS2/C3_4/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C3_4/build/status_display

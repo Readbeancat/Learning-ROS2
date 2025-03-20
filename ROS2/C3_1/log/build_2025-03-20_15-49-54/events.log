@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000371] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.000734] (demo_python_topic) JobQueued: {'identifier': 'demo_python_topic', 'dependencies': OrderedDict()}
+[0.000972] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.007148] (demo_python_topic) JobStarted: {'identifier': 'demo_python_topic'}
+[0.013655] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.014567] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.015429] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Documents/ROS2/C3_1/build/demo_cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/admin/Documents/ROS2/C3_1/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '2386'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/admin/Documents/ROS2/C3_1/learn_top'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2516'), ('BUNDLED_DEBUGPY_PATH', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_1/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin:/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts:/home/admin/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/febu3iyj2ajyigj:@/tmp/.ICE-unix/2479,unix/febu3iyj2ajyigj:/tmp/.ICE-unix/2479'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/32b8cadc_8870_4548_9243_dcaca6f7519e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3941783ded382c31.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XDG_CONFIG_HOME', '/home/admin/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1709416fa8.sock'), ('GNOME_TERMINAL_SERVICE', ':1.527'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_1/install/demo_cpp_topic:/home/admin/Documents/ROS2/C3_1/install/demo_python_topic:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Documents/ROS2/C3_1/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/admin/Documents/ROS2/C3_1/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_1/install/demo_cpp_topic:/home/admin/Documents/ROS2/C3_1/install/demo_python_topic:/opt/ros/humble')]), 'shell': False}
+[0.047613] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.104197] (-) TimerEvent: {}
+[0.204556] (-) TimerEvent: {}
+[0.259216] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.298793] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.301875] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.304645] (-) TimerEvent: {}
+[0.310721] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.322596] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.339395] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.385634] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.387155] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.404754] (-) TimerEvent: {}
+[0.505399] (-) TimerEvent: {}
+[0.514773] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.587428] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.604199] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.606985] (-) TimerEvent: {}
+[0.662311] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.707084] (-) TimerEvent: {}
+[0.747111] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.747369] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.747476] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.747772] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.748999] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.749224] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.752345] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.752545] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.775022] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.782318] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/Documents/ROS2/C3_1/build/demo_cpp_topic\n'}
+[0.807333] (-) TimerEvent: {}
+[0.819013] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[0.829453] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[0.839718] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/admin/Documents/ROS2/C3_1/learn_top/src/demo_cpp_topic/src/turtle_control.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/twist.hpp: No such file or directory\n'}
+[0.839999] (demo_cpp_topic) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/twist.hpp"\x1b[m\x1b[K\n'}
+[0.840261] (demo_cpp_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.840376] (demo_cpp_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[0.840982] (demo_cpp_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1\n'}
+[0.841312] (demo_cpp_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_control.dir/all] Error 2\n'}
+[0.841449] (demo_cpp_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.848141] (demo_cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o\x1b[0m\n'}
+[0.891401] (demo_python_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/demo_python_topic', 'build', '--build-base', '/home/admin/Documents/ROS2/C3_1/build/demo_python_topic/build', 'install', '--record', '/home/admin/Documents/ROS2/C3_1/build/demo_python_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/admin/Documents/ROS2/C3_1/learn_top/src/demo_python_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'admin', 'SSH_AGENT_PID': '2386', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/admin', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/admin/Documents/ROS2/C3_1/learn_top', 'TERM_PROGRAM_VERSION': '1.98.2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2516', 'BUNDLED_DEBUGPY_PATH': '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/admin/Documents/ROS2/C3_1/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'admin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin:/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts:/home/admin/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/febu3iyj2ajyigj:@/tmp/.ICE-unix/2479,unix/febu3iyj2ajyigj:/tmp/.ICE-unix/2479', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/32b8cadc_8870_4548_9243_dcaca6f7519e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3941783ded382c31.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XDG_CONFIG_HOME': '/home/admin/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1709416fa8.sock', 'GNOME_TERMINAL_SERVICE': ':1.527', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/admin/Documents/ROS2/C3_1/install/demo_cpp_topic:/home/admin/Documents/ROS2/C3_1/install/demo_python_topic:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/admin/Documents/ROS2/C3_1/build/demo_python_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/admin/Documents/ROS2/C3_1/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/admin/Documents/ROS2/C3_1/install/demo_python_topic/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C3_1/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/admin/Documents/ROS2/C3_1/install/demo_cpp_topic'}, 'shell': False}
+[0.910756] (-) TimerEvent: {}
+[1.011069] (-) TimerEvent: {}
+[1.111423] (-) TimerEvent: {}
+[1.193707] (demo_python_topic) StdoutLine: {'line': b'running egg_info\n'}
+[1.194643] (demo_python_topic) StdoutLine: {'line': b'writing ../../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO\n'}
+[1.194907] (demo_python_topic) StdoutLine: {'line': b'writing dependency_links to ../../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt\n'}
+[1.195089] (demo_python_topic) StdoutLine: {'line': b'writing entry points to ../../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt\n'}
+[1.195225] (demo_python_topic) StdoutLine: {'line': b'writing requirements to ../../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt\n'}
+[1.195327] (demo_python_topic) StdoutLine: {'line': b'writing top-level names to ../../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt\n'}
+[1.197903] (demo_python_topic) StdoutLine: {'line': b"reading manifest file '../../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[1.198547] (demo_python_topic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.199748] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[1.200087] (demo_python_topic) StdoutLine: {'line': b'running build\n'}
+[1.200352] (demo_python_topic) StdoutLine: {'line': b'running build_py\n'}
+[1.200639] (demo_python_topic) StdoutLine: {'line': b'running install\n'}
+[1.200893] (demo_python_topic) StdoutLine: {'line': b'running install_lib\n'}
+[1.202676] (demo_python_topic) StdoutLine: {'line': b'running install_data\n'}
+[1.202924] (demo_python_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.205028] (demo_python_topic) StdoutLine: {'line': b"removing '/home/admin/Documents/ROS2/C3_1/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.205446] (demo_python_topic) StdoutLine: {'line': b'Copying ../../../build/demo_python_topic/demo_python_topic.egg-info to /home/admin/Documents/ROS2/C3_1/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info\n'}
+[1.206420] (demo_python_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[1.211482] (-) TimerEvent: {}
+[1.229658] (demo_python_topic) StdoutLine: {'line': b'Installing novel_pub_node script to /home/admin/Documents/ROS2/C3_1/install/demo_python_topic/lib/demo_python_topic\n'}
+[1.229886] (demo_python_topic) StdoutLine: {'line': b'Installing novel_sub_node script to /home/admin/Documents/ROS2/C3_1/install/demo_python_topic/lib/demo_python_topic\n'}
+[1.230246] (demo_python_topic) StdoutLine: {'line': b"writing list of installed files to '/home/admin/Documents/ROS2/C3_1/build/demo_python_topic/install.log'\n"}
+[1.263025] (demo_python_topic) CommandEnded: {'returncode': 0}
+[1.280815] (demo_python_topic) JobEnded: {'identifier': 'demo_python_topic', 'rc': 0}
+[1.311636] (-) TimerEvent: {}
+[1.412251] (-) TimerEvent: {}
+[1.512564] (-) TimerEvent: {}
+[1.612872] (-) TimerEvent: {}
+[1.713177] (-) TimerEvent: {}
+[1.813482] (-) TimerEvent: {}
+[1.913790] (-) TimerEvent: {}
+[2.014098] (-) TimerEvent: {}
+[2.114406] (-) TimerEvent: {}
+[2.214708] (-) TimerEvent: {}
+[2.315015] (-) TimerEvent: {}
+[2.415320] (-) TimerEvent: {}
+[2.515631] (-) TimerEvent: {}
+[2.615939] (-) TimerEvent: {}
+[2.716249] (-) TimerEvent: {}
+[2.816567] (-) TimerEvent: {}
+[2.916874] (-) TimerEvent: {}
+[3.017181] (-) TimerEvent: {}
+[3.117497] (-) TimerEvent: {}
+[3.217802] (-) TimerEvent: {}
+[3.318125] (-) TimerEvent: {}
+[3.418448] (-) TimerEvent: {}
+[3.518761] (-) TimerEvent: {}
+[3.619064] (-) TimerEvent: {}
+[3.719372] (-) TimerEvent: {}
+[3.819681] (-) TimerEvent: {}
+[3.919985] (-) TimerEvent: {}
+[4.020300] (-) TimerEvent: {}
+[4.120615] (-) TimerEvent: {}
+[4.220933] (-) TimerEvent: {}
+[4.321250] (-) TimerEvent: {}
+[4.421577] (-) TimerEvent: {}
+[4.521891] (-) TimerEvent: {}
+[4.622213] (-) TimerEvent: {}
+[4.722524] (-) TimerEvent: {}
+[4.822868] (-) TimerEvent: {}
+[4.923278] (-) TimerEvent: {}
+[5.023703] (-) TimerEvent: {}
+[5.124137] (-) TimerEvent: {}
+[5.224534] (-) TimerEvent: {}
+[5.324938] (-) TimerEvent: {}
+[5.425345] (-) TimerEvent: {}
+[5.525691] (-) TimerEvent: {}
+[5.626029] (-) TimerEvent: {}
+[5.726363] (-) TimerEvent: {}
+[5.826693] (-) TimerEvent: {}
+[5.927038] (-) TimerEvent: {}
+[6.027330] (-) TimerEvent: {}
+[6.039317] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_circle\x1b[0m\n'}
+[6.127446] (-) TimerEvent: {}
+[6.227803] (-) TimerEvent: {}
+[6.281537] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[6.282569] (demo_cpp_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.286220] (demo_cpp_topic) CommandEnded: {'returncode': 2}
+[6.293670] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 2}
+[6.304168] (-) EventReactorShutdown: {}

@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.000475] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.000636] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict([('status_interfaces', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces')])}
+[0.000773] (status_publisher) JobQueued: {'identifier': 'status_publisher', 'dependencies': OrderedDict([('status_interfaces', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces')])}
+[0.000960] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.008621] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.009905] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[0.010939] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Documents/ROS2/C3_4/build/status_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/admin/Documents/ROS2/C3_4/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '2386'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/admin/Documents/ROS2/C3_4/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2516'), ('BUNDLED_DEBUGPY_PATH', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin:/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts:/home/admin/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/febu3iyj2ajyigj:@/tmp/.ICE-unix/2479,unix/febu3iyj2ajyigj:/tmp/.ICE-unix/2479'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b612c3_9849_48b3_a2d9_81c4ae63742c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1945fdabf35e4634.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XDG_CONFIG_HOME', '/home/admin/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0225301771.sock'), ('GNOME_TERMINAL_SERVICE', ':1.775'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Documents/ROS2/C3_4/build/status_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[0.072025] (status_interfaces) StdoutLine: {'line': b'[  3%] Built target status_interfaces__cpp\n'}
+[0.073798] (status_interfaces) StdoutLine: {'line': b'[ 12%] Built target status_interfaces__rosidl_generator_c\n'}
+[0.086218] (status_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[0.099813] (-) TimerEvent: {}
+[0.100904] (status_interfaces) StdoutLine: {'line': b'[ 22%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.101970] (status_interfaces) StdoutLine: {'line': b'[ 32%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[0.102355] (status_interfaces) StdoutLine: {'line': b'[ 41%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.103279] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.103439] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[0.104234] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.131158] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces\n'}
+[0.156224] (status_interfaces) StdoutLine: {'line': b'[ 74%] Built target status_interfaces__py\n'}
+[0.178106] (status_interfaces) StdoutLine: {'line': b'[ 80%] Built target status_interfaces__rosidl_generator_py\n'}
+[0.199918] (-) TimerEvent: {}
+[0.201646] (status_interfaces) StdoutLine: {'line': b'[ 87%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.202190] (status_interfaces) StdoutLine: {'line': b'[ 93%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.205123] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.300009] (-) TimerEvent: {}
+[0.392813] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.393455] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[0.393729] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[0.393948] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[0.396293] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.396926] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.400090] (-) TimerEvent: {}
+[0.428328] (status_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[0.442801] (status_interfaces) CommandEnded: {'returncode': 0}
+[0.443464] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[0.456348] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Documents/ROS2/C3_4/build/status_interfaces'], 'cwd': '/home/admin/Documents/ROS2/C3_4/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '2386'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/admin/Documents/ROS2/C3_4/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2516'), ('BUNDLED_DEBUGPY_PATH', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin:/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts:/home/admin/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/febu3iyj2ajyigj:@/tmp/.ICE-unix/2479,unix/febu3iyj2ajyigj:/tmp/.ICE-unix/2479'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b612c3_9849_48b3_a2d9_81c4ae63742c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1945fdabf35e4634.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XDG_CONFIG_HOME', '/home/admin/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0225301771.sock'), ('GNOME_TERMINAL_SERVICE', ':1.775'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Documents/ROS2/C3_4/build/status_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[0.466168] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.466667] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[0.466768] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.466923] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.467199] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.467277] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.467367] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[0.467472] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[0.467555] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[0.467625] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[0.467703] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[0.467797] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[0.467908] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[0.468630] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[0.468909] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.469214] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.469462] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.469679] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.469815] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.469946] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.470155] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.470252] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.470356] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.470437] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.470517] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[0.470607] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[0.470705] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[0.470790] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[0.470918] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[0.472375] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.472639] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.472843] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.473096] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.473228] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[0.473386] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.473559] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.473722] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.473818] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.473919] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.474021] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.474147] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[0.474240] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[0.474346] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.474441] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[0.474545] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.474612] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.474671] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.474730] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[0.474789] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.474853] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.474919] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.474977] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[0.475036] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[0.475094] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.475152] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.475210] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.475268] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.475326] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.475384] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces\n'}
+[0.475442] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.475502] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.475567] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.475627] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.475697] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.475756] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.475820] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py\n'}
+[0.475878] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg\n'}
+[0.475936] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py\n'}
+[0.475999] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c\n'}
+[0.476057] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py\n'}
+[0.476114] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\n'}
+[0.500164] (-) TimerEvent: {}
+[0.506878] (status_interfaces) StdoutLine: {'line': b"Listing '/home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...\n"}
+[0.507011] (status_interfaces) StdoutLine: {'line': b"Listing '/home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...\n"}
+[0.512469] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.513016] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.513502] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.514006] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[0.514314] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[0.514533] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[0.514762] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[0.514975] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[0.515189] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[0.515342] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.515507] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[0.515697] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[0.515873] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[0.516044] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[0.516177] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[0.516366] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[0.516569] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[0.516743] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[0.516948] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.517126] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.517285] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.517534] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.517777] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.518103] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.518331] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.518451] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.518569] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.518682] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.518796] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.518900] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.519007] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.519129] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.519239] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.519338] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.519454] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.519567] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.519679] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.519787] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.519894] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.519988] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.520082] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.520177] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.520400] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[0.529384] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[0.529553] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[0.529666] (status_interfaces) CommandEnded: {'returncode': 0}
+[0.554694] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[0.555728] (status_display) JobStarted: {'identifier': 'status_display'}
+[0.558788] (status_publisher) JobStarted: {'identifier': 'status_publisher'}
+[0.565216] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[0.566631] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'build'}
+[0.567430] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Documents/ROS2/C3_4/build/status_display', '--', '-j8', '-l8'], 'cwd': '/home/admin/Documents/ROS2/C3_4/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '2386'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/admin/Documents/ROS2/C3_4/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2516'), ('BUNDLED_DEBUGPY_PATH', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin:/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts:/home/admin/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/febu3iyj2ajyigj:@/tmp/.ICE-unix/2479,unix/febu3iyj2ajyigj:/tmp/.ICE-unix/2479'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b612c3_9849_48b3_a2d9_81c4ae63742c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1945fdabf35e4634.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XDG_CONFIG_HOME', '/home/admin/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0225301771.sock'), ('GNOME_TERMINAL_SERVICE', ':1.775'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Documents/ROS2/C3_4/build/status_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[0.600271] (-) TimerEvent: {}
+[0.603033] (status_display) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700398] (-) TimerEvent: {}
+[0.767693] (status_display) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800507] (-) TimerEvent: {}
+[0.808077] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.810784] (status_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.817185] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.828373] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.846061] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.890488] (status_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.891946] (status_display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900605] (-) TimerEvent: {}
+[1.000915] (-) TimerEvent: {}
+[1.018607] (status_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.087967] (status_display) StdoutLine: {'line': b'-- Found status_interfaces: 0.0.0 (/home/admin/Documents/ROS2/C3_4/install/status_interfaces/share/status_interfaces/cmake)\n'}
+[1.101023] (-) TimerEvent: {}
+[1.109852] (status_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.197226] (status_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.197467] (status_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.197555] (status_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.197905] (status_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.198737] (status_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.198816] (status_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.199102] (status_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.199852] (status_display) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201076] (-) TimerEvent: {}
+[1.219132] (status_display) StdoutLine: {'line': b'-- Generating done\n'}
+[1.224542] (status_display) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/Documents/ROS2/C3_4/build/status_display\n'}
+[1.267417] (status_display) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_qt\x1b[0m\n'}
+[1.278123] (status_display) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o\x1b[0m\n'}
+[1.288777] (status_display) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o\x1b[0m\n'}
+[1.301181] (-) TimerEvent: {}
+[1.369441] (status_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/status_publisher', 'build', '--build-base', '/home/admin/Documents/ROS2/C3_4/build/status_publisher/build', 'install', '--record', '/home/admin/Documents/ROS2/C3_4/build/status_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/admin/Documents/ROS2/C3_4/src/status_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'admin', 'SSH_AGENT_PID': '2386', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/admin', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/admin/Documents/ROS2/C3_4/src', 'TERM_PROGRAM_VERSION': '1.98.2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2516', 'BUNDLED_DEBUGPY_PATH': '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/admin/Documents/ROS2/C3_4/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'admin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin:/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts:/home/admin/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/febu3iyj2ajyigj:@/tmp/.ICE-unix/2479,unix/febu3iyj2ajyigj:/tmp/.ICE-unix/2479', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a1b612c3_9849_48b3_a2d9_81c4ae63742c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1945fdabf35e4634.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XDG_CONFIG_HOME': '/home/admin/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0225301771.sock', 'GNOME_TERMINAL_SERVICE': ':1.775', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/admin/Documents/ROS2/C3_4/build/status_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/admin/Documents/ROS2/C3_4/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/home/admin/Documents/ROS2/C3_4/install/status_display'}, 'shell': False}
+[1.401301] (-) TimerEvent: {}
+[1.501663] (-) TimerEvent: {}
+[1.602053] (-) TimerEvent: {}
+[1.699807] (status_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[1.700827] (status_publisher) StdoutLine: {'line': b'writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO\n'}
+[1.701493] (status_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt\n'}
+[1.702214] (-) TimerEvent: {}
+[1.702923] (status_publisher) StdoutLine: {'line': b'writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt\n'}
+[1.703074] (status_publisher) StdoutLine: {'line': b'writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt\n'}
+[1.703149] (status_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt\n'}
+[1.704732] (status_publisher) StdoutLine: {'line': b"reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'\n"}
+[1.705346] (status_publisher) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.706479] (status_publisher) StdoutLine: {'line': b"writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'\n"}
+[1.706749] (status_publisher) StdoutLine: {'line': b'running build\n'}
+[1.706861] (status_publisher) StdoutLine: {'line': b'running build_py\n'}
+[1.707392] (status_publisher) StdoutLine: {'line': b'running install\n'}
+[1.707907] (status_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[1.709765] (status_publisher) StdoutLine: {'line': b'running install_data\n'}
+[1.709961] (status_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.712616] (status_publisher) StdoutLine: {'line': b"removing '/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.712984] (status_publisher) StdoutLine: {'line': b'Copying ../../build/status_publisher/status_publisher.egg-info to /home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info\n'}
+[1.713869] (status_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[1.737566] (status_publisher) StdoutLine: {'line': b'Installing sys_status_pub script to /home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/status_publisher\n'}
+[1.737985] (status_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/admin/Documents/ROS2/C3_4/build/status_publisher/install.log'\n"}
+[1.780977] (status_publisher) CommandEnded: {'returncode': 0}
+[1.782347] (status_publisher) JobEnded: {'identifier': 'status_publisher', 'rc': 0}
+[1.802332] (-) TimerEvent: {}
+[1.902687] (-) TimerEvent: {}
+[2.003123] (-) TimerEvent: {}
+[2.103531] (-) TimerEvent: {}
+[2.203937] (-) TimerEvent: {}
+[2.304257] (-) TimerEvent: {}
+[2.404576] (-) TimerEvent: {}
+[2.504894] (-) TimerEvent: {}
+[2.605219] (-) TimerEvent: {}
+[2.668794] (status_display) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable hello_qt\x1b[0m\n'}
+[2.705330] (-) TimerEvent: {}
+[2.805644] (-) TimerEvent: {}
+[2.906012] (-) TimerEvent: {}
+[3.006356] (-) TimerEvent: {}
+[3.106706] (-) TimerEvent: {}
+[3.207051] (-) TimerEvent: {}
+[3.232997] (status_display) StdoutLine: {'line': b'[ 75%] Built target hello_qt\n'}
+[3.307162] (-) TimerEvent: {}
+[3.407470] (-) TimerEvent: {}
+[3.507797] (-) TimerEvent: {}
+[3.608108] (-) TimerEvent: {}
+[3.708425] (-) TimerEvent: {}
+[3.808746] (-) TimerEvent: {}
+[3.909051] (-) TimerEvent: {}
+[4.009370] (-) TimerEvent: {}
+[4.109685] (-) TimerEvent: {}
+[4.210007] (-) TimerEvent: {}
+[4.310319] (-) TimerEvent: {}
+[4.410648] (-) TimerEvent: {}
+[4.510967] (-) TimerEvent: {}
+[4.611303] (-) TimerEvent: {}
+[4.711626] (-) TimerEvent: {}
+[4.811947] (-) TimerEvent: {}
+[4.912328] (-) TimerEvent: {}
+[5.012668] (-) TimerEvent: {}
+[5.112977] (-) TimerEvent: {}
+[5.213298] (-) TimerEvent: {}
+[5.313634] (-) TimerEvent: {}
+[5.413959] (-) TimerEvent: {}
+[5.514276] (-) TimerEvent: {}
+[5.614607] (-) TimerEvent: {}
+[5.714979] (-) TimerEvent: {}
+[5.815296] (-) TimerEvent: {}
+[5.915609] (-) TimerEvent: {}
+[6.015927] (-) TimerEvent: {}
+[6.116277] (-) TimerEvent: {}
+[6.216621] (-) TimerEvent: {}
+[6.316964] (-) TimerEvent: {}
+[6.417304] (-) TimerEvent: {}
+[6.517646] (-) TimerEvent: {}
+[6.617995] (-) TimerEvent: {}
+[6.718333] (-) TimerEvent: {}
+[6.818673] (-) TimerEvent: {}
+[6.919011] (-) TimerEvent: {}
+[7.019351] (-) TimerEvent: {}
+[7.119690] (-) TimerEvent: {}
+[7.220026] (-) TimerEvent: {}
+[7.320366] (-) TimerEvent: {}
+[7.420714] (-) TimerEvent: {}
+[7.521055] (-) TimerEvent: {}
+[7.621394] (-) TimerEvent: {}
+[7.721751] (-) TimerEvent: {}
+[7.822088] (-) TimerEvent: {}
+[7.922429] (-) TimerEvent: {}
+[8.022769] (-) TimerEvent: {}
+[8.123098] (-) TimerEvent: {}
+[8.223439] (-) TimerEvent: {}
+[8.323813] (-) TimerEvent: {}
+[8.424143] (-) TimerEvent: {}
+[8.524476] (-) TimerEvent: {}
+[8.624826] (-) TimerEvent: {}
+[8.725162] (-) TimerEvent: {}
+[8.825496] (-) TimerEvent: {}
+[8.925846] (-) TimerEvent: {}
+[9.026195] (-) TimerEvent: {}
+[9.126530] (-) TimerEvent: {}
+[9.226867] (-) TimerEvent: {}
+[9.327200] (-) TimerEvent: {}
+[9.427542] (-) TimerEvent: {}
+[9.527884] (-) TimerEvent: {}
+[9.628224] (-) TimerEvent: {}
+[9.728578] (-) TimerEvent: {}
+[9.828928] (-) TimerEvent: {}
+[9.929265] (-) TimerEvent: {}
+[10.029606] (-) TimerEvent: {}
+[10.129961] (-) TimerEvent: {}
+[10.230301] (-) TimerEvent: {}
+[10.330635] (-) TimerEvent: {}
+[10.430976] (-) TimerEvent: {}
+[10.531308] (-) TimerEvent: {}
+[10.631646] (-) TimerEvent: {}
+[10.731984] (-) TimerEvent: {}
+[10.832317] (-) TimerEvent: {}
+[10.932661] (-) TimerEvent: {}
+[11.032981] (-) TimerEvent: {}
+[11.133303] (-) TimerEvent: {}
+[11.233622] (-) TimerEvent: {}
+[11.333942] (-) TimerEvent: {}
+[11.434255] (-) TimerEvent: {}
+[11.534573] (-) TimerEvent: {}
+[11.634885] (-) TimerEvent: {}
+[11.735200] (-) TimerEvent: {}
+[11.835514] (-) TimerEvent: {}
+[11.935832] (-) TimerEvent: {}
+[12.036143] (-) TimerEvent: {}
+[12.136456] (-) TimerEvent: {}
+[12.236778] (-) TimerEvent: {}
+[12.237221] (status_display) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sys_status_display\x1b[0m\n'}
+[12.336901] (-) TimerEvent: {}
+[12.437314] (-) TimerEvent: {}
+[12.537764] (-) TimerEvent: {}
+[12.638174] (-) TimerEvent: {}
+[12.738609] (-) TimerEvent: {}
+[12.839024] (-) TimerEvent: {}
+[12.939401] (-) TimerEvent: {}
+[13.039717] (-) TimerEvent: {}
+[13.140032] (-) TimerEvent: {}
+[13.189158] (status_display) StdoutLine: {'line': b'[100%] Built target sys_status_display\n'}
+[13.200662] (status_display) CommandEnded: {'returncode': 0}
+[13.201621] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'install'}
+[13.201950] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Documents/ROS2/C3_4/build/status_display'], 'cwd': '/home/admin/Documents/ROS2/C3_4/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '2386'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/admin/Documents/ROS2/C3_4/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2516'), ('BUNDLED_DEBUGPY_PATH', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin:/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts:/home/admin/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/febu3iyj2ajyigj:@/tmp/.ICE-unix/2479,unix/febu3iyj2ajyigj:/tmp/.ICE-unix/2479'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b612c3_9849_48b3_a2d9_81c4ae63742c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/admin/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1945fdabf35e4634.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XDG_CONFIG_HOME', '/home/admin/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0225301771.sock'), ('GNOME_TERMINAL_SERVICE', ':1.775'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Documents/ROS2/C3_4/build/status_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C3_4/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/Documents/ROS2/C3_4/install/status_interfaces:/home/admin/Documents/ROS2/C3_4/install/status_display:/home/admin/Documents/ROS2/C3_4/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[13.210103] (status_display) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.210337] (status_display) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/lib/status_display/hello_qt\n'}
+[13.210843] (status_display) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/Documents/ROS2/C3_4/install/status_display/lib/status_display/hello_qt" to ""\n'}
+[13.210943] (status_display) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/lib/status_display/sys_status_display\n'}
+[13.215492] (status_display) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/Documents/ROS2/C3_4/install/status_display/lib/status_display/sys_status_display" to ""\n'}
+[13.215657] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display\n'}
+[13.215733] (status_display) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display\n'}
+[13.215864] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/ament_prefix_path.sh\n'}
+[13.215934] (status_display) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/ament_prefix_path.dsv\n'}
+[13.216085] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/path.sh\n'}
+[13.216186] (status_display) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/environment/path.dsv\n'}
+[13.216392] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.bash\n'}
+[13.216523] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.sh\n'}
+[13.216601] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.zsh\n'}
+[13.216670] (status_display) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/local_setup.dsv\n'}
+[13.216764] (status_display) StdoutLine: {'line': b'-- Installing: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/package.dsv\n'}
+[13.216889] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/ament_index/resource_index/packages/status_display\n'}
+[13.217016] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/cmake/status_displayConfig.cmake\n'}
+[13.217083] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake\n'}
+[13.217158] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Documents/ROS2/C3_4/install/status_display/share/status_display/package.xml\n'}
+[13.218378] (status_display) CommandEnded: {'returncode': 0}
+[13.232114] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 0}
+[13.232943] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/admin/Documents/ROS2/C3_4/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C3_4/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C3_4/install/status_interfaces
+Invoked command in '/home/admin/Documents/ROS2/C3_4/build/status_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C3_4/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C3_4/install/status_interfaces

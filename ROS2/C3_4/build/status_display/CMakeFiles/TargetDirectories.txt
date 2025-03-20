@@ -1,0 +1,11 @@
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/uninstall.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/status_display_uninstall.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/hello_qt.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/sys_status_display.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/test.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/edit_cache.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/rebuild_cache.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/list_install_components.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/install.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/install/local.dir
+/home/admin/Documents/ROS2/C3_4/build/status_display/CMakeFiles/install/strip.dir

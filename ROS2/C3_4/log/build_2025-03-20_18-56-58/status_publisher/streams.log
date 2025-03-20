@@ -1,0 +1,22 @@
+[0.754s] Invoking command in '/home/admin/Documents/ROS2/C3_4/src/status_publisher': PYTHONPATH=/home/admin/Documents/ROS2/C3_4/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/admin/Documents/ROS2/C3_4/build/status_publisher/build install --record /home/admin/Documents/ROS2/C3_4/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.020s] running egg_info
+[1.021s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[1.021s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[1.022s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[1.022s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[1.022s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[1.024s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.024s] adding license file 'LICENSE'
+[1.025s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.025s] running build
+[1.025s] running build_py
+[1.025s] running install
+[1.026s] running install_lib
+[1.027s] running install_data
+[1.027s] running install_egg_info
+[1.029s] removing '/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.029s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[1.030s] running install_scripts
+[1.052s] Installing sys_status_pub script to /home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/status_publisher
+[1.053s] writing list of installed files to '/home/admin/Documents/ROS2/C3_4/build/status_publisher/install.log'
+[1.077s] Invoked command in '/home/admin/Documents/ROS2/C3_4/src/status_publisher' returned '0': PYTHONPATH=/home/admin/Documents/ROS2/C3_4/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/admin/Documents/ROS2/C3_4/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/admin/Documents/ROS2/C3_4/build/status_publisher/build install --record /home/admin/Documents/ROS2/C3_4/build/status_publisher/install.log --single-version-externally-managed install_data
