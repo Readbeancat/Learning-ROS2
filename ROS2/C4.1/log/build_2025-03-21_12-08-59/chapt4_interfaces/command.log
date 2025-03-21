@@ -1,0 +1,4 @@
+Invoking command in '/home/admin/Documents/ROS2/C4.1/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C4.1/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces
+Invoked command in '/home/admin/Documents/ROS2/C4.1/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C4.1/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces
+Invoking command in '/home/admin/Documents/ROS2/C4.1/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C4.1/build/chapt4_interfaces -- -j8 -l8
+Invoked command in '/home/admin/Documents/ROS2/C4.1/build/chapt4_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C4.1/build/chapt4_interfaces -- -j8 -l8

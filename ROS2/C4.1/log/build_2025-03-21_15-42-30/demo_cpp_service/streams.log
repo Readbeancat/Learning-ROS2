@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/home/admin/Documents/ROS2/C4.1/build/demo_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C4.1/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C4.1/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C4.1/install/demo_cpp_service
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.180s] -- Detecting C compiler ABI info
+[0.251s] -- Detecting C compiler ABI info - done
+[0.268s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.270s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.381s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.384s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.562s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.668s] -- Found chapt4_interfaces: 0.0.0 (/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.717s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.725s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.737s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.888s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.926s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.929s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.035s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.068s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.128s] -- Looking for pthread.h
+[1.220s] -- Looking for pthread.h - found
+[1.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.321s] -- Found Threads: TRUE  
+[1.370s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.429s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.522s] -- Added test 'lint_cmake' to check CMake code style
+[1.523s] -- Added test 'xmllint' to check XML markup files
+[1.525s] -- Configuring done
+[1.531s] -- Generating done
+[1.534s] -- Build files have been written to: /home/admin/Documents/ROS2/C4.1/build/demo_cpp_service
+[1.546s] Invoked command in '/home/admin/Documents/ROS2/C4.1/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C4.1/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C4.1/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C4.1/install/demo_cpp_service
+[1.548s] Invoking command in '/home/admin/Documents/ROS2/C4.1/build/demo_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C4.1/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C4.1/build/demo_cpp_service -- -j8 -l8
+[1.597s] Invoked command in '/home/admin/Documents/ROS2/C4.1/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C4.1/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C4.1/build/demo_cpp_service -- -j8 -l8
+[1.599s] Invoking command in '/home/admin/Documents/ROS2/C4.1/build/demo_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C4.1/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C4.1/build/demo_cpp_service
+[1.606s] -- Install configuration: ""
+[1.606s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[1.607s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[1.608s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[1.608s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[1.608s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[1.608s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[1.608s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[1.608s] -- Installing: /home/admin/Documents/ROS2/C4.1/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[1.610s] Invoked command in '/home/admin/Documents/ROS2/C4.1/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/Documents/ROS2/C4.1/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C4.1/build/demo_cpp_service

@@ -1,0 +1,7 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/admin/Documents/ROS2/C4.1/src/chapt4_interfaces:srv/FaceDetector.srv",
+    "/home/admin/Documents/ROS2/C4.1/src/chapt4_interfaces:srv/Partol.srv"
+  ]
+}

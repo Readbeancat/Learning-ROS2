@@ -1,0 +1,34 @@
+[0.816s] Invoking command in '/home/admin/Documents/ROS2/C4.1/src/demo_python_service': AMENT_PREFIX_PATH=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces LD_LIBRARY_PATH=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/Documents/ROS2/C4.1/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/admin/Documents/ROS2/C4.1/install/demo_python_service/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/admin/Documents/ROS2/C4.1/build/demo_python_service/build install --record /home/admin/Documents/ROS2/C4.1/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.104s] running egg_info
+[1.105s] creating ../../build/demo_python_service/demo_python_service.egg-info
+[1.105s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.106s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.106s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.106s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.106s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.106s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.108s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.108s] adding license file 'LICENSE'
+[1.111s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.111s] running build
+[1.111s] running build_py
+[1.111s] creating /home/admin/Documents/ROS2/C4.1/build/demo_python_service/build
+[1.112s] creating /home/admin/Documents/ROS2/C4.1/build/demo_python_service/build/lib
+[1.112s] creating /home/admin/Documents/ROS2/C4.1/build/demo_python_service/build/lib/demo_python_service
+[1.112s] copying demo_python_service/__init__.py -> /home/admin/Documents/ROS2/C4.1/build/demo_python_service/build/lib/demo_python_service
+[1.112s] running install
+[1.112s] running install_lib
+[1.112s] creating /home/admin/Documents/ROS2/C4.1/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.112s] copying /home/admin/Documents/ROS2/C4.1/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/admin/Documents/ROS2/C4.1/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.112s] byte-compiling /home/admin/Documents/ROS2/C4.1/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py to __init__.cpython-310.pyc
+[1.113s] running install_data
+[1.113s] creating /home/admin/Documents/ROS2/C4.1/install/demo_python_service/share/ament_index
+[1.113s] creating /home/admin/Documents/ROS2/C4.1/install/demo_python_service/share/ament_index/resource_index
+[1.113s] creating /home/admin/Documents/ROS2/C4.1/install/demo_python_service/share/ament_index/resource_index/packages
+[1.113s] copying resource/demo_python_service -> /home/admin/Documents/ROS2/C4.1/install/demo_python_service/share/ament_index/resource_index/packages
+[1.113s] copying package.xml -> /home/admin/Documents/ROS2/C4.1/install/demo_python_service/share/demo_python_service
+[1.113s] running install_egg_info
+[1.114s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/admin/Documents/ROS2/C4.1/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.115s] running install_scripts
+[1.137s] writing list of installed files to '/home/admin/Documents/ROS2/C4.1/build/demo_python_service/install.log'
+[1.162s] Invoked command in '/home/admin/Documents/ROS2/C4.1/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces LD_LIBRARY_PATH=/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/Documents/ROS2/C4.1/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/admin/Documents/ROS2/C4.1/install/demo_python_service/lib/python3.10/site-packages:/home/admin/Documents/ROS2/C4.1/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/admin/Documents/ROS2/C4.1/build/demo_python_service/build install --record /home/admin/Documents/ROS2/C4.1/build/demo_python_service/install.log --single-version-externally-managed install_data
