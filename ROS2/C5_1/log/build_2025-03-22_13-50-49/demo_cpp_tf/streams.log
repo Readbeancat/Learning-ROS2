@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C5_1/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C5_1/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.187s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.226s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.229s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.296s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.484s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.598s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.601s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.603s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.605s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.688s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.688s] -- Configured cppcheck include dirs: 
+[0.688s] -- Configured cppcheck exclude dirs and/or files: 
+[0.688s] -- Added test 'lint_cmake' to check CMake code style
+[0.689s] -- Added test 'uncrustify' to check C / C++ code style
+[0.689s] -- Configured uncrustify additional arguments: 
+[0.690s] -- Added test 'xmllint' to check XML markup files
+[0.690s] -- Configuring done
+[0.704s] -- Generating done
+[0.718s] -- Build files have been written to: /home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf
+[0.735s] Invoked command in '/home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C5_1/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake /home/admin/Documents/ROS2/C5_1/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf
+[0.738s] Invoking command in '/home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C5_1/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf -- -j8 -l8
+[0.792s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[1.153s] In file included from [01m[K/home/admin/Documents/ROS2/C5_1/src/demo_cpp_tf/src/static_tf_broadcaster.cpp:5[m[K:
+[1.153s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.153s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.154s]       |  [01;35m[K^~~~~~~[m[K
+[5.581s] [100%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[5.807s] [100%] Built target static_tf_broadcaster
+[5.818s] Invoked command in '/home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C5_1/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf -- -j8 -l8
+[5.832s] Invoking command in '/home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C5_1/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf
+[5.842s] -- Install configuration: ""
+[5.842s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[5.844s] -- Set runtime path of "/home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster" to ""
+[5.844s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[5.844s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[5.845s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[5.845s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[5.846s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[5.846s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[5.847s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[5.847s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[5.847s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[5.847s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[5.848s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[5.848s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[5.848s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[5.848s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[5.849s] -- Installing: /home/admin/Documents/ROS2/C5_1/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[5.854s] Invoked command in '/home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/home/admin/Documents/ROS2/C5_1/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/admin/Documents/ROS2/C5_1/build/demo_cpp_tf
